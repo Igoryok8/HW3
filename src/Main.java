@@ -21,6 +21,12 @@ public class Main {
         System.out.println("Общее время работы сотрудников " + totalTime + " часов");
         var totalWorker = totalTime / oneWorker;
         System.out.println("Всего работников в компании – " + totalWorker + " человек");
+        var allWorker = totalWorker + 94;
+        System.out.println("Всего работников после увеличения штата – " + allWorker + " человек");
+        var totalTimeAllWorker = allWorker * oneWorker;
+        System.out.println("Если в компании работает " + allWorker + " человек, то всего " + totalTimeAllWorker+
+                " часа работы может быть поделено между сотрудниками.");
+
 
     }
 }
