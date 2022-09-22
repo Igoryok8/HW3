@@ -14,6 +14,13 @@ public class Main {
         System.out.println("Разница в весе боксёров " + weightDifference + " кг.");
         weightDifference = weightBoxerTwo % weightBoxerOne;
         System.out.println("Разница в весе боксёров " + weightDifference + " кг.");
+        System.out.println("Задание 8 ");
+        var oneWorker = 8;
+        System.out.println("Время работы каждого сотрудника " + oneWorker + " часов");
+        var totalTime = 640;
+        System.out.println("Общее время работы сотрудников " + totalTime + " часов");
+        var totalWorker = totalTime / oneWorker;
+        System.out.println("Всего работников в компании – " + totalWorker + " человек");
 
     }
 }
